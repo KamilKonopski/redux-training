@@ -1,11 +1,11 @@
 .auth {
-  margin: 5rem auto;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
-  width: 25rem;
+  background-color: #f4f0fa;
   border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  margin: 5rem auto;
   padding: 1rem;
   text-align: center;
-  background-color: #f4f0fa;
+  width: 25rem;
 }
 
 .control {
@@ -15,15 +15,16 @@
 .control label {
   display: block;
   color: #616161;
-  text-transform: uppercase;
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
 }
 
 .control input {
-  display: block;
-  width: 20rem;
-  margin: auto;
-  border-radius: 4px;
-  padding: 0.25rem;
   border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  padding: 0.25rem;
+  width: 20rem;
+  
 }
