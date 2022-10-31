@@ -1,20 +1,21 @@
 .header {
-  width: 100%;
-  height: 5rem;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #3c0080;
   color: white;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
   padding: 0 10%;
+  width: 100%;
 }
 
 .header ul {
+  align-items: center;
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  align-items: center;
+  
 }
 
 .header li {
@@ -22,9 +23,9 @@
 }
 
 .header a {
-  text-decoration: none;
   color: white;
   font-size: 1.25rem;
+  text-decoration: none;
 }
 
 .header a:hover,
@@ -33,12 +34,12 @@
 }
 
 .header button {
-  font-size: 1.25rem;
   background-color: #ffbb00;
   border: 1px solid #ffbb00;
-  padding: 0.5rem 1.5rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   color: #2c2922;
+  font-size: 1.25rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .header button:hover,
