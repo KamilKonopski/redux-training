@@ -4,11 +4,11 @@ import { authActions } from "../store/index";
 
 import classes from "./Header.module.css";
 
-const Header = () => {
+function Header() {
 	const dispatch = useDispatch();
 	const isLogin = useSelector((state) => state.auth.isAuthenticated);
 
-	const logoutHandler = () => {
+	function logoutHandler() {
 		dispatch(authActions.logout());
 	};
 
