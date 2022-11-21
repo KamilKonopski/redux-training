@@ -4,24 +4,24 @@ import { counterActions } from "../store/index";
 
 import classes from "./Counter.module.css";
 
-const Counter = () => {
+function Counter() {
 	const dispatch = useDispatch();
 	const counter = useSelector((state) => state.counter.counter);
 	const toggle = useSelector((state) => state.counter.showCounter);
 
-	const incrementHandler = () => {
+	function incrementHandler() {
 		dispatch(counterActions.increment());
 	};
 
-	const increaseHandler = () => {
+	function increaseHandler() {
 		dispatch(counterActions.increase(5));
 	};
 
-	const decrementHandler = () => {
+	function decrementHandler() {
 		dispatch(counterActions.decrement());
 	};
 
-	const toggleCounterHandler = () => {
+	function toggleCounterHandler() {
 		dispatch(counterActions.toggleCounter());
 	};
 
