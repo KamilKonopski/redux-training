@@ -4,10 +4,10 @@ import { authActions } from "../store/index";
 
 import classes from "./Auth.module.css";
 
-const Auth = () => {
+function Auth() {
 	const dispatch = useDispatch();
 
-	const loginHandler = (event) => {
+	function loginHandler(event) {
 		event.preventDefault();
 
 		dispatch(authActions.login());
